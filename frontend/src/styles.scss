@@ -1,0 +1,188 @@
+/* 1. Police et reset léger */
+body {
+  font-family: "Graphik", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f8fc; /* bleu très clair */
+  color: #384050; /* gris foncé */
+}
+
+/* Liens */
+a {
+  color: #0074c7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #00497c;
+  text-decoration: underline;
+}
+
+/* 2. Contenu principal */
+main.container {
+  min-height: 60vh;
+}
+
+/* 3. Header et navigation */
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #8a8f9c; /* gris clair dérivé */
+}
+
+.navbar-brand {
+  color: #00497c !important; /* bleu foncé */
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #384050 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #0074c7 !important;
+}
+
+/* Barre de recherche dans le header */
+.header-search-input {
+  max-width: 260px;
+}
+
+/* 4. Titres */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #00497c;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #00497c;
+}
+
+/* 5. Boutons */
+.btn-primary {
+  background-color: #0074c7;
+  border-color: #0074c7;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #00497c;
+  border-color: #00497c;
+}
+
+.btn-success {
+  background-color: #82b864;
+  border-color: #82b864;
+}
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #6fa354;
+  border-color: #6fa354;
+}
+
+.btn-danger {
+  background-color: #cd2c2e;
+  border-color: #cd2c2e;
+}
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: #b02323;
+  border-color: #b02323;
+}
+
+/* 6. Cartes artisans */
+.card {
+  border: 1px solid #8a8f9c;
+  border-radius: 0.5rem;
+}
+
+.card h2,
+.card .card-title {
+  margin-bottom: 0.5rem;
+  color: #384050;
+}
+
+.card p {
+  margin-bottom: 0.25rem;
+}
+
+/* 7. Messages / alertes */
+.alert-success {
+  background-color: #82b864;
+  border-color: #6ba054;
+  color: #ffffff;
+}
+
+.alert-danger {
+  background-color: #cd2c2e;
+  border-color: #b12323;
+  color: #ffffff;
+}
+
+/* 8. Section "Comment trouver mon artisan ?" */
+.steps-section {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 24px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #0074c7;
+  color: #ffffff;
+  font-weight: 600;
+  margin-right: 0.75rem;
+}
+
+/* 9. Footer */
+footer {
+  background-color: #384050;
+  color: #ffffff;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #f1f8fc;
+  text-decoration: underline;
+}
+footer a:hover {
+  text-decoration: none;
+}
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+/* 10. Page 404 */
+.text-center img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 11. Utilitaires */
+.text-muted {
+  color: #8a8f9c !important;
+}
+
+.badge-rating {
+  color: #f5c518; /* jaune étoiles, si besoin */
+  font-size: 0.95rem;
+}
+
+/* 12. Logo du header */
+.logo-img {
+  height: 56px; /* ajuste selon le rendu souhaité */
+  display: block;
+}
